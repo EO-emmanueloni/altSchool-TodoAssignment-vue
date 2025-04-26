@@ -45,7 +45,7 @@
               type="submit" 
               class="add-todo-button"
             >
-              Add Todo
+              Add  Todo here
             </button>
           </form>
           <p v-if="titleError" class="error-message">{{ titleError }}</p>
@@ -65,7 +65,7 @@
         <!-- Todo List -->
         <div v-else>
           <div v-if="filteredTodos.length === 0" class="empty-todos-message">
-            No todos found matching your criteria.
+            No todos match your search.
           </div>
           
           <div v-else class="todos-container">
